@@ -1,0 +1,461 @@
+/* ПЕРВАЯ ГЛАВНАЯ СТРАНИЦА */
+/* 1280 * 800 px планшет */
+@media only screen and (max-width:800px){
+
+}
+/* 1280 * 800 px телефон */
+@media only screen and (max-width:800px){
+	.banner_articles{
+		display: block;
+		margin-top: 50px;
+	}
+	.menu>li{
+		padding-left: 20px;
+		margin-left: 20px;
+		position: relative;
+	}
+}
+@media only screen and (max-width:1016px){
+	.work_message_hello{
+		font-size: 35px;
+	}
+	.reviews_title{
+		font-size: 35px;
+	}
+	.work_gallery>img{
+		height: 150px;
+		width: 350px;
+	}
+}
+@media only screen and (max-width:726px){
+	.reviews_title{
+		font-size: 30px;
+	}
+	.work_message_hello{
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width:819px){
+	.work_message_hello{
+		font-size: 35px;
+	}
+	.work_gallery>img{
+		height: 150px;
+		width: 300px;
+	}
+}
+@media only screen and (max-width:1168px){
+	.title_apps{
+		font-size: 40px;
+	}
+	.title_apps_pk{
+		font-size: 40px;
+	}
+}
+@media only screen and (max-width:949px){
+	.title_apps{
+		font-size: 30px;
+	}
+	.title_apps_pk{
+		font-size: 30px;
+	}
+}
+@media only screen and (max-width:715px){
+	.title_apps{
+		font-size: 25px;
+	}
+	.title_apps_pk{
+		font-size: 25px;
+	}
+}
+@media only screen and (max-width:1012px){
+	.text_info_cool{
+		font-size: 15px;
+	}
+	.text_info_cammon{
+		font-size: 15px;
+	}
+}
+@media only screen and (max-width:800px){
+	.text_info_cool{
+		font-size: 12px;
+	}
+	.text_info_cammon{
+		font-size: 12px;
+	}
+}
+@media only screen and (max-width:1140px){
+	.title_game{
+		font-size: 35px;
+	}
+}
+@media only screen and (max-width:810px){
+	.title_game{
+		font-size: 28px;
+	}
+}
+@media only screen and (max-width:732px){
+	.work_message_hello{
+		font-size: 20px;
+	}
+
+}
+@media only screen and (max-width:718px){
+	.work_gallery{
+		margin: 0 0 0 25%;
+	}
+	
+}
+@media only screen and (max-width:718px){
+	.work_gallery{
+		margin: 0 0 0 20%;
+	}
+	.title_apps{
+		border-bottom: 4px solid black;
+		padding-bottom: 10px;
+	}
+	.title_apps_pk{
+		border-bottom: 4px solid black;
+		padding-bottom: 10px;
+	}
+	.title_game{
+		border-bottom: 4px solid black;
+		padding-bottom: 10px;
+	}
+	.news_title{
+		border-bottom: 4px solid black;
+		padding-bottom: 10px;
+	}
+}
+@media only screen and (max-width:514px){
+	.work_gallery{
+		margin: 0 0 0 15%;
+	}
+	.banner{
+		padding-top: 150px;
+		padding-bottom: 150px;
+	}
+	
+}
+@media only screen and (max-width:474px){
+	.work_gallery{
+		margin: 0 0 0 10%;
+	}
+	
+}
+@media only screen and (max-width:1000px){
+.check-menu{
+	width: 100%;
+	height: 100%;
+	font-size: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.wrapper_burger{
+	margin: 200px auto;
+	width: 100%;
+	background-color: #000;
+	position: relative;
+	color: white;
+	text-align: center;
+	height: 0; //40px
+	font-family: "Arial";
+}
+#check-menu{
+	display: none;
+}
+.label{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	z-index: 2;
+	line-height: 40px;
+}
+.burger-line{
+	position: absolute;
+	top: 8px;
+	right: 10px;
+	width: 35px;
+	height: 2px;
+	background-color: #fff;
+	transition: .5s all;
+
+}
+.second, .third{
+	top: 18px;
+}
+.fourth{
+	top: 28px;
+}
+.main_menu{
+	display: block;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	transform: translateY(100%);
+	max-height: 0;
+	font-size: 0;
+	overflow: hidden;
+	transition: .5s all;
+}
+.burg_main{
+	display: block;
+	width: 100%;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	border-top: 1px solid rgba(250, 250, 250, 3.0);
+	background-color: #000;
+}
+.burg_apps{
+	display: block;
+	width: 100%;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	border-top: 1px solid rgba(250, 250, 250, 3.0);
+	background-color: #000;
+}
+.burg_games{
+	display: block;
+	width: 100%;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	border-top: 1px solid rgba(250, 250, 250, 3.0);
+	background-color: #000;
+}
+.burg_news_web{
+	display: block;
+	width: 100%;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	border-top: 1px solid rgba(250, 250, 250, 3.0);
+	background-color: #000;
+}
+.burg_articles{
+	display: block;
+	width: 100%;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	border-top: 1px solid rgba(250, 250, 250, 3.0);
+	background-color: #000;
+}
+#check-menu:checked ~.main_menu{
+	max-height: 500px;
+	font-size: 16px;
+}
+#check-menu:checked ~ .first{
+	display: none;
+}
+#check-menu:checked ~ .second{
+	transform: rotate(45deg);
+}
+#check-menu:checked ~ .third{
+	transform: rotate(-45deg);
+}
+#check-menu:checked ~ .fourth{
+	display: none;
+}
+.game_new{
+	margin-top: 1px;
+}
+}
+@media only screen and (max-width:1000px){
+.wrapper_burger{
+	
+	visibility: visible;
+}
+}
+@media only screen and (max-width:802px){
+
+.banner_butt>a{
+	margin-right: 10px;
+	font-size: 12px;
+	padding: 10px;
+}
+.banner_articles{
+	width: 100px;
+}
+.banner{
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+}
+@media only screen and (max-width:800px){
+	.title{
+		font-size: 30px;
+	}
+}
+@media only screen and (max-width:480px){
+	.title_apps{
+		font-size: 18px;
+	}
+	.title_apps_pk{
+		font-size: 18px;
+	}
+	.title_game{
+		font-size: 18px;
+	}
+	.news_title{
+		font-size: 18px;
+	}
+	.title_apps{
+		border-bottom: 2px solid black;
+		padding-bottom: 5px;
+	}
+	.title_apps_pk{
+		border-bottom: 2px solid black;
+		padding-bottom: 5px;
+	}
+	.title_game{
+		border-bottom: 2px solid black;
+		padding-bottom: 5px;
+	}
+	.news_title{
+		border-bottom: 2px solid black;
+		padding-bottom: 5px;
+	}
+	.text_info_cool{
+		font-size: 10px;
+	}
+	.text_data_cool{
+		font-size: 10px;
+		padding: 5px;
+	}
+	.text_etc_cool{
+		font-size: 10px;
+		border: 1px solid red;
+	}
+	.text_data_cammon{
+		font-size: 10px;
+		padding: 5px;
+	}
+	.text_info_cammon{
+		font-size: 10px;
+	}
+	.text_etc_cammon{
+		font-size: 10px;
+		border: 1px solid #197368;
+	}
+}
+@media only screen and (max-width:320px){
+	.title{
+		font-size: 20px;
+	}
+	.discription{
+		font-size: 10px;
+		line-height: 10px;
+	}
+	.work_gallery{
+		width: 200px;
+	}
+	.work_gallery>img{
+		width: 200px;
+		height: 100px;
+	}
+	.work_message_hello{
+		font-size: 13px;
+	}
+	.title_apps{
+		font-size: 13px;
+	}
+	.title_apps_pk{
+		font-size: 12px;
+	}
+	.title_game{
+		font-size: 13px;
+	}
+	.news_title{
+		font-size: 13px;
+	}
+	.text_info_cool{
+		font-size: 8px;
+	}
+	.text_data_cool{
+		font-size: 8px;
+		padding: 3px;
+	}
+	.text_etc_cool{
+		font-size: 8px;
+		border: 1px solid red;
+	}
+	.text_data_cammon{
+		font-size: 8px;
+		padding: 3px;
+	}
+	.text_info_cammon{
+		font-size: 8px;
+	}
+	.text_etc_cammon{
+		font-size: 8px;
+		border: 1px solid #197368;
+	}
+}
+@media only screen and (max-width:628px){
+	.image-slider__image>img{
+		height: 200px;
+	}
+	.game_content_text{
+		font-size: 15px;
+		line-height: 20px;
+	}
+}
+@media only screen and (max-width:548px){
+	.status_game_item.worck{
+		padding: 8px;
+	}
+	.status_game_item_title.worck{
+		font-size: 8px;
+	}
+	.status_game_item_info_.worck{
+		font-size: 8px;
+	}
+	.status_game_item.noworck{
+		padding: 8px;
+	}
+	.status_game_item_title.noworck{
+		font-size: 8px;
+	}
+	.status_game_item_info_.noworck{
+		font-size: 8px;
+	}
+}
+@media only screen and (max-width:448px){
+	.image-slider__image>img{
+		height: 140px;
+	}
+	.status_game_item.worck{
+		padding: 6px;
+	}
+	.status_game_item_title.worck{
+		font-size: 7px;
+	}
+	.status_game_item_info_.worck{
+		font-size: 7px;
+	}
+	.status_game_item.noworck{
+		padding: 6px;
+	}
+	.status_game_item_title.noworck{
+		font-size: 7px;
+	}
+	.status_game_item_info_.noworck{
+		font-size: 7px;
+	}
+	.status_game_item_info_.worck{
+		padding: 6px;
+	}
+	.status_game_item_info_.noworck{
+		padding: 6px;
+	}
+
+}
